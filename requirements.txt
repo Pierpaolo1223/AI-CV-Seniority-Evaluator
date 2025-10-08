@@ -1,0 +1,17 @@
+pypdf2
+pdfplumber
+pdfminer.six
+openai
+anthropic
+aiohttp
+aiofiles
+fastapi
+uvicorn
+python-dotenv
+pydantic
+pandas
+python-multipart
+pytest
+pytest-asyncio
+black
+google-generativeai
