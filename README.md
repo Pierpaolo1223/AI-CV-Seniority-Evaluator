@@ -47,8 +47,6 @@ Ho scelto di utilizzare **Google Gemini** per questo prototipo perché:
 - Aggiungi la seguente riga al file:
 GEMINI_API_KEY=la_tua_api_key_qui
 
-text
-
 ### **2. Installazione Dipendenze**
 - Apri il terminale nella **cartella root del progetto**
 - Esegui il comando:
