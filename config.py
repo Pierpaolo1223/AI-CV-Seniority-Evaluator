@@ -2,30 +2,6 @@ import os
 from dotenv import load_dotenv
 
 # Il prompt per analizzare i CV
-'''PROMPT_ANALISI = """
-Analizza il CV e assegna un livello di seniority:
-
-CRITERI:
-1. IMPATTO SISTEMICO (35%): ha creato/migliorato processi?
-2. RESPONSABILITÀ ARCHITETTONICHE (25%): ha progettato sistemi?
-3. LEADERSHIP TECNICA (20%): ha guidato/coordinato team?
-4. COMPLESSITÀ GESTITA (20%): ha lavorato su sistemi complessi?
-
-CALCOLA:
-- Junior: 0-40 punti
-- Mid: 41-65 punti  
-- Senior: 66-85 punti
-- Staff: 86-100 punti
-
-CV DA ANALIZZARE:
-{testo_cv}
-
-RISPOSTA IN QUESTO FORMATO:
-LIVELLO: [junior/mid/senior/staff]
-PUNTEGGIO: [numero]/100
-MOTIVAZIONE: [breve spiegazione]
-"""'''
-
 PROMPT_ANALISI = """
 Analizza il CV e assegna un livello di seniority tecnica complessiva.
 
