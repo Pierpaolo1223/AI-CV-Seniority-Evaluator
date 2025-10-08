@@ -50,13 +50,16 @@ GEMINI_API_KEY=la_tua_api_key_qui
 ### **2. Installazione Dipendenze**
 - Apri il terminale nella **cartella root del progetto**
 - Esegui il comando:
-```bash
+```bash 
 pip install -r requirements.txt
-3. Esecuzione del Programma
-Dal terminale, sempre nella cartella root, esegui:
+```
 
-bash
+### **3. Esecuzione del Programma**
+Dal terminale, sempre nella cartella root, esegui:
+```bash 
 python3 main.py
+```
+
 Segui le istruzioni a schermo per inserire il percorso del PDF da analizzare
 
 💡 Suggerimenti
